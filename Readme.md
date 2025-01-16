@@ -45,6 +45,23 @@ We have trained several models on the BarkVisionAI dataset. The details of these
 | NvidiaEfficientNetB4         | 90.47        | [Download](https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/models/NvidiaEfficientNetB4/NvidiaEfficientNetB4.pth)                            | [Download](https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/confusion+matrix/NvidiaEfficientNetB4.png)    |
 
 ---
+### BarkNet 1.0 Dataset
+We also trained the same models with a subset of **200 images** representing **3 different species** from the BarkNet 1.0 dataset:
+- **Abies balsamea**
+- **Tsuga canadensis**
+- **Quercus rubra**
+
+The results are summarized below:
+
+| Model Name       | Accuracy (%) | Model Weights                                                                 | Confusion Matrix Download Link                                 |
+|------------------|--------------|-------------------------------------------------------------------------------|--------------------------------------------------------------|
+| ResNet18         | 86.11         | [Download](https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/Barknet+Trained+Models/resnet18/resnet18+.pth)                            | [Download](https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/confusion+matrix/Resnet18_barknet.png)    |
+| ResNet34  | 79.37         | [Download](https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/Barknet+Trained+Models/resnet34/resnet34.pth)                      | [Download](https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/confusion+matrix/Resnet34_barknet.png)|
+| ResNet50      | 89.53         | [Download](https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/Barknet+Trained+Models/resnet50/resnet50.pth)                         | [Download](https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/confusion+matrix/Resnet50_barknet.png) |
+| VGG16      | 89.06         | [Download](https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/Barknet+Trained+Models/VGG16/VGG16.pth)                         | [Download](https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/confusion+matrix/VGG16_barknet.png) |
+| EfficientNetB0         | 94.37        | [Download](https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/Barknet+Trained+Models/EfficientNetB0/EfficientNetB0.pth)                            | [Download](https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/confusion+matrix/EfficientNetB0_barknet.png)    |
+| NvidiaEfficientNetB4         | 93.75        | [Download](https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/Barknet+Trained+Models/NvidiaEfficientNetB4/NvidiaEfficientNetB4.pth)                            | [Download](https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/confusion+matrix/NvidiaEfficientNetB4_barknet.png)    |
+
 
 ## Get Started
 To access the dataset and detailed metadata, visit the [BarkVisionAI Repository](#).
