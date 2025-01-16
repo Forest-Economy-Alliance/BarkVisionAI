@@ -44,7 +44,9 @@ We have trained several models on the BarkVisionAI dataset. The details of these
 | EfficientNetB0         | 90.70        | [Download](https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/models/EfficientNetB0/EfficientNetB0.pth)                            | [Download](https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/confusion+matrix/EfficientNetB0.png)    |
 | NvidiaEfficientNetB4         | 90.47        | [Download](https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/models/NvidiaEfficientNetB4/NvidiaEfficientNetB4.pth)                            | [Download](https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/confusion+matrix/NvidiaEfficientNetB4.png)    |
 
----
+To reproduce the results you can download the [metadata csv](https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/training-data/metadata.csv) file which provides detailed information about the images used during training, including species names, timestamps, and device attributes.
+
+
 ### BarkNet 1.0 Dataset
 We also trained the same models with a subset of **200 images** representing **3 different species** from the BarkNet 1.0 dataset:
 - **Abies balsamea**
@@ -64,4 +66,14 @@ The results are summarized below:
 
 
 ## Get Started
-To access the dataset and detailed metadata, visit the [BarkVisionAI Repository](#).
+This GitHub repository provides tools to train and test models using the BarkVisionAI dataset. By modifying the configuration file, users can:
+
+- Specify the dataset path.
+- Select model architectures.
+- Set hyperparameters like learning rate, batch size, and epochs.
+
+## Acknowledgments
+
+We thank all contributors and collaborators who helped in the creation and validation of the [BarkVisionAI dataset](#).
+
+
