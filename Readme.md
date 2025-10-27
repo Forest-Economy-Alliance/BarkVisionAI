@@ -2,10 +2,11 @@
 
 Tree species identification and mapping is crucial for forest management, biodiversity conservation, and ecological research. Bark images can be captured easily from the ground level and can provide vast amounts of information about the tree species and its health. Yet, existing datasets for tree bark images are often limited in scope, lacking diversity in species representation and temporal attributes.
 
-To address these limitations, we present **BarkVisionAI**, a comprehensive dataset of **167,361 tree bark images** representing **13 species** collected from diverse forests across India. Each image is meticulously labeled with:
+To address these limitations, we present **BarkVisionAI**, a comprehensive dataset of **156,001 tree bark images** representing **13 species** collected from diverse forests across India. Each image is meticulously labeled with:
 
 - **Species Name**
 - **Device Attributes**
+- **Location**
 - **Timestamp**
 
 This dataset provides a robust foundation for:
@@ -19,9 +20,24 @@ This dataset provides a robust foundation for:
 ## Key Features
 - **Diversity**: Images collected from multiple forests across India, representing a wide variety of species and ecological conditions.
 - **Metadata**: Detailed metadata for each image, enabling rich analytical possibilities.
-- **Scale**: A large dataset with 167,361 images, ensuring comprehensive representation.
+- **Scale**: A large dataset with 156,001 images, ensuring comprehensive representation.
 - **Utility**: Suitable for a range of applications, including automated tree species identification and monitoring environmental changes.
 
+## Geographical Distribution of BarkVisionAI Dataset
+To illustrate the diversity of our dataset, we have mapped the **geographical distribution** of bark image collection sites across India. The BarkVisionAI dataset spans multiple **eco-regions** ensuring representation across varied ecological conditions.
+
+- **Distribution of points collected in Himachal Pradesh**
+
+![Himachal Pradesh Species Distribution](https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/distribution+map/Himachal+Pradesh+Species+Distribution.png)
+
+- **Distribution of points collected in Odisha**
+
+![Odisha Species Distribution](https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/distribution+map/Odisha+Species+Distribution.png)
+
+## Temporal Distribution of BarkVisionAI Dataset 
+![Collected Species Distribution](https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/distribution+map/Months+Distribution.png)
+
+![Collected Species Distribution](https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/distribution+map/Daytime+Distribution.png)
 ## Applications
 1. **Ecological Research**: Gain insights into tree species distribution and bark variability.
 2. **Machine Learning**: Train and benchmark AI models for tree species classification.
@@ -47,6 +63,46 @@ We have trained several models on the BarkVisionAI dataset. The details of these
 
 To reproduce the results you can download the [metadata csv](https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/training-data/metadata.csv) file which provides detailed information about the images used during training, including species names, timestamps, and device attributes.
 
+## Model Analysis: ResNet50 (Best Performing Model)
+Among all trained architectures, **ResNet50** achieved an overall accuracy of 87.42%, with 7,956 correct predictions out of 9,100 samples. A detailed breakdown of model performance across temporal and environmental conditions reveals important insights:  
+
+| Metric              | Value  |
+|----------------------|--------|
+| Correct Predictions  | 7,956  |
+| Incorrect Predictions| 1,144  |
+| Total Predictions    | 9,100  |
+| **Accuracy**         | **87.42%** |
+
+
+### **Confusion Matrix**
+The confusion matrix below illustrates inter-class prediction accuracy for ResNet50.
+![ResNet50 Confusion Matrix](https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/models/resnet50/resnet50_confusion_matrix.png)
+
+### Misclassification Rate by Time of Day 
+The highest misclassification rate was observed during the evening, while morning and afternoon rates remained consistently lower and similar. This suggests that diminished natural light during evening hours may have affected image quality, leading to reduced feature clarity and increased prediction errors. The model performed more reliably when lighting was relatively stable, as seen during morning and afternoon periods. 
+
+![Misclassification Rate by Time of Day](https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/resnet50+analysis/misclassification+by+time+of+the+day.png)
+
+### Misclassification Rate by Elevation:  
+The model performed better at low altitudes, with misclassification rates increasing at medium and high elevations. This may be due to greater species overlap and environmental variability at higher elevations, which introduces complexity in visual patterns.
+
+![Misclassification Rate by Elevation](https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/resnet50+analysis/misclassification+by+elevation.png)
+
+### Accuracy by Month and Time of Day  
+
+Model accuracy varied across both months and times of day, with clear patterns influenced by environmental and lighting conditions:  
+
+- **Peak Accuracy** was observed in *September*, particularly during the *evening* and *morning* (both **92%**).  
+- **December** showed perfect accuracy (**100%**) across all time slots; however, this is due to an extremely small sample size (n=6).  
+- **Midday (Afternoon)** generally resulted in higher accuracy compared to morning or evening in most months, likely due to better and more consistent lighting.  
+- **Lower Accuracy** was seen in *October mornings* (79%) and *April evenings* (81%), both of which also had relatively fewer images, potentially contributing to less robust performance.  
+
+<p align="center">
+  <img src="https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/resnet50+analysis/Accuracy+by+month+and+time+of+day.png" alt="Accuracy by month and time of day" width="48%">
+  <img src="https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/resnet50+analysis/Image+Count+by+month+and+time+of+day.png" alt="Image Count by month and time of day" width="48%">
+</p>
+
+ 
 
 ## Get Started
 This GitHub repository provides tools to train and test models using the BarkVisionAI dataset. By modifying the configuration file, users can:
