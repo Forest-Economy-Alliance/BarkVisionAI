@@ -40,16 +40,16 @@ To illustrate the diversity of our dataset, we have mapped the **geographical di
 
 | Ecoregion | *Shorea robusta* | *Madhuca longifolia* | *Buchanania lanzan* | *Senegalia catechu* | *Rhododendron arboreum* | *Pinus roxburghii* | *Mangifera sylvatica* | *Eucalyptus globulus* | *Phyllanthus emblica* | *Taxus baccata* | *Aesculus indica* | *Cedrus deodara* | *Quercus leucotrichophora* | **Total Count** |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Himalayan subtropical pine forests | 228 | 0 | 0 | 11,177 | 2,413 | 25,282 | 2,123 | 2,600 | 3,525 | 1,313 | 552 | 6,612 | 5,019 | **60,292** |
+| Himalayan subtropical pine forests | 228 | 0 | 0 | 11,177 | 2,413 | 25,282 | 2,125 | 2,600 | 3,525 | 1,313 | 552 | 6,612 | 5,019 | **60,846** |
 | Northwestern Himalayan alpine shrub and meadow | 1 | 0 | 0 | 2 | 41 | 170 | 0 | 0 | 0 | 126 | 759 | 569 | 9 | **1,677** |
-| WS Northwestern thorn scrub forests | 13,253 | 0 | 0 | 2,998 | 0 | 3,496 | 461 | 3,301 | 260 | 3 | 4 | 1 | 122 | **23,899** |
-| Upper Gangetic Plains moist deciduous forests | 1,396 | 0 | 0 | 860 | 0 | 0 | 22 | 461 | 20 | 0 | 0 | 0 | 0 | **2,759** |
-| Western Himalayan broadleaf forests | 2 | 0 | 0 | 7,833 | 2,232 | 11,275 | 2,105 | 1,841 | 2,457 | 1,356 | 2,804 | 13,450 | 1,335 | **46,690** |
+| WS Northwestern thorn scrub forests | 13,253 | 0 | 0 | 3,110 | 0 | 3,496 | 461 | 3,301 | 260 | 3 | 4 | 1 | 122 | **24,011** |
+| Upper Gangetic Plains moist deciduous forests | 1,396 | 0 | 0 | 908 | 0 | 0 | 22 | 462 | 20 | 0 | 0 | 0 | 0 | **2,808** |
+| Western Himalayan broadleaf forests | 2 | 0 | 0 | 7,833 | 2,232 | 11,502 | 2,105 | 1,841 | 2,457 | 1,356 | 2,804 | 13,450 | 1,335 | **46,917** |
 | Western Himalayan subalpine conifer forests | 0 | 0 | 0 | 0 | 33 | 1 | 1 | 0 | 0 | 57 | 114 | 1 | 0 | **207** |
 | Chhota-Nagpur dry deciduous forests | 468 | 1 | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **482** |
-| Eastern highlands moist deciduous forests | 5,996 | 5,318 | 2,298 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **13,612** |
+| Eastern highlands moist deciduous forests | 5,997 | 5,318 | 2,299 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **13,614** |
 | Northern dry deciduous forests | 3,623 | 765 | 1,051 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **5,439** |
-
+| Total | 24,968 | 6,084 | 3,363 | 23,030 | 4,719 | 40,451 | 4,714 | 8,204 | 6,262 | 2,855 | 4,233 | 20,633 | 4,685 | **156,001** |
 
 ## Temporal Distribution of BarkVisionAI Dataset 
 ![Collected Species Distribution](https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/distribution+map/Months+Distribution.png)
