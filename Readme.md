@@ -50,10 +50,6 @@ To illustrate the diversity of our dataset, we have mapped the **geographical di
 | Eastern highlands moist deciduous forests | 5,996 | 5,318 | 2,298 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **13,612** |
 | Northern dry deciduous forests | 3,623 | 765 | 1,051 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **5,439** |
 
-### **Notes**
-
-* All plant scientific names are formatted in *italics* for consistency with scientific conventions.
-* Total Counts are bolded for quick reference.
 
 ## Temporal Distribution of BarkVisionAI Dataset 
 ![Collected Species Distribution](https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/distribution+map/Months+Distribution.png)
@@ -137,6 +133,7 @@ This GitHub repository provides tools to train and test models using the BarkVis
 ## Acknowledgments
 
 We thank all contributors and collaborators who helped in the creation and validation of the [BarkVisionAI dataset](#).
+
 
 
 
