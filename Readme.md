@@ -26,17 +26,17 @@ This dataset provides a robust foundation for:
 ## Geographical Distribution of BarkVisionAI Dataset
 To illustrate the diversity of our dataset, we have mapped the **geographical distribution** of bark image collection sites across India. The BarkVisionAI dataset spans multiple **eco-regions** ensuring representation across varied ecological conditions.
 
-- **Distribution of points collected in Himachal Pradesh**
+- **Distribution of tree locations collected in Himachal Pradesh**
 
 ![Himachal Pradesh Species Distribution](https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/distribution+map/Himachal+Pradesh+Species+Distribution.png)
 
-- **Distribution of points collected in Odisha**
+- **Distribution of tree locations collected in Odisha**
 
 ![Odisha Species Distribution](https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/distribution+map/Odisha+Species+Distribution.png)
 
-- **Ecoregion Wise Collected Species Point Count**
+- **Ecoregion-wise tree species count**
 
-   This table presents the point counts for key tree species across various Ecoregions. The counts reflect the abundance of each species within the specified forest type.
+   This table presents the point counts for key tree species across various Ecoregions. The counts reflect the abundance of each species within the specified ecoregion.
 
 | Ecoregion | *Shorea robusta* | *Madhuca longifolia* | *Buchanania lanzan* | *Senegalia catechu* | *Rhododendron arboreum* | *Pinus roxburghii* | *Mangifera sylvatica* | *Eucalyptus globulus* | *Phyllanthus emblica* | *Taxus baccata* | *Aesculus indica* | *Cedrus deodara* | *Quercus leucotrichophora* | **Total Count** |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -49,7 +49,7 @@ To illustrate the diversity of our dataset, we have mapped the **geographical di
 | Chhota-Nagpur dry deciduous forests | 468 | 1 | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **482** |
 | Eastern highlands moist deciduous forests | 5,997 | 5,318 | 2,299 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **13,614** |
 | Northern dry deciduous forests | 3,623 | 765 | 1,051 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **5,439** |
-| Total | 24,968 | 6,084 | 3,363 | 23,030 | 4,719 | 40,451 | 4,714 | 8,204 | 6,262 | 2,855 | 4,233 | 20,633 | 4,685 | **156,001** |
+| &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Total &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| 24,968 | 6,084 | 3,363 | 23,030 | 4,719 | 40,451 | 4,714 | 8,204 | 6,262 | 2,855 | 4,233 | 20,633 | 4,685 | **156,001** |
 
 ## Temporal Distribution of BarkVisionAI Dataset 
 ![Collected Species Distribution](https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/distribution+map/Months+Distribution.png)
