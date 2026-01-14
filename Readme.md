@@ -132,7 +132,8 @@ This GitHub repository provides tools to train and test models using the BarkVis
 
 ## Acknowledgments
 
-We thank all contributors and collaborators who helped in the creation and validation of the [BarkVisionAI dataset](#).
+We thank all contributors and collaborators who helped in the creation and validation of the [BarkVisionAI dataset](https://zenodo.org/records/14650999).
+
 
 
 
