@@ -1,4 +1,4 @@
-  # BarkVisionAI: Dataset for Tree Species Identification with AI
+  # BarkVisionAI: Novel dataset for rapid tree species identification
 
 Tree species identification and mapping is crucial for forest management, biodiversity conservation, and ecological research. Bark images can be captured easily from the ground level and can provide vast amounts of information about the tree species and its health. Yet, existing datasets for tree bark images are often limited in scope, lacking diversity in species representation and temporal attributes.
 
@@ -133,6 +133,7 @@ This GitHub repository provides tools to train and test models using the BarkVis
 ## Acknowledgments
 
 We thank all contributors and collaborators who helped in the creation and validation of the [BarkVisionAI dataset](https://zenodo.org/records/14650999).
+
 
 
 
