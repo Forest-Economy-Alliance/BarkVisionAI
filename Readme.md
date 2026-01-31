@@ -75,7 +75,7 @@ We have trained several models on the BarkVisionAI dataset. The details of these
 | ResNet18         | 84.90         | [Download](https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/models/resnet18/best_resnet18.pth)                            | [Download](https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/models/resnet18/resnet18_confusion_matrix.png)    |
 | ResNet34  | 86.42         | [Download](https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/models/resnet34/best_resnet34.pth)                      | [Download](https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/models/resnet34/resnet34_confusion_matrix.png)|
 | ResNet50      | 87.42         | [Download](https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/models/resnet50/best_resnet50.pth)                         | [Download](https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/models/resnet50/resnet50_confusion_matrix.png) |
-| VGG16      | 85.65         | [Download](https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/models/VGG16/best_VGG16.pth)                         | [Download](https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/models/VGG16/VGG16_confusion_matrix.png) |
+| VGG16      | 80.45         | [Download](https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/models/VGG16/best_VGG16.pth)                         | [Download](https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/models/VGG16/VGG16_confusion_matrix.png) |
 | EfficientNetB0         | 83.96        | [Download](https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/models/EfficientNetB0/best_EfficientNetB0.pth)                            | [Download](https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/models/EfficientNetB0/EfficientNetB0_confusion_matrix.png)    |
 | NvidiaEfficientNetB4         | 72.17        | [Download](https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/models/NvidiaEfficientNetB4/best_NvidiaEfficientNetB4.pth)                            | [Download](https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/models/NvidiaEfficientNetB4/NvidiaEfficientNetB4_confusion_matrix.png)    |
 | VIT Based Model (vit_base_patch14_reg4_dinov2.lvd142m)      | 85.03        | [Download](https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/models/VIT_based_model/best_CustomViT.pth)                            | [Download](https://iofe-greenbase-bucket.s3.us-east-1.amazonaws.com/nCount/released-data-models/models/VIT_based_model/confusion_matrix.png)    |
@@ -133,6 +133,7 @@ This GitHub repository provides tools to train and test models using the BarkVis
 ## Acknowledgments
 
 We thank all contributors and collaborators who helped in the creation and validation of the [BarkVisionAI dataset](https://zenodo.org/records/14650999).
+
 
 
 
